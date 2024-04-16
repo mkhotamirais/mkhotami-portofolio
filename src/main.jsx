@@ -5,8 +5,8 @@ import "./index.css";
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from "react-router-dom";
 import { Provider } from "react-redux";
 import { store } from "./app/store.js";
-import ErrorBoundary from "../../mkhotami-ringkasan/src/ErrorBoundary.jsx";
 import Home from "./pages/Home.jsx";
+import ErrorBoundary from "./ErrorBoundary.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
