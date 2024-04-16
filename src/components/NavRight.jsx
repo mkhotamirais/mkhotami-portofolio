@@ -4,7 +4,7 @@ import { toggleDark } from "../app/features/basicSlice";
 
 export const SourceCode = ({ className }) => {
   return (
-    <a href="/" className={`${className}`}>
+    <a href="https://github.com/mkhotamirais/mkhotami-portofolio" className={`${className}`}>
       <FaGithub />
     </a>
   );

@@ -42,7 +42,12 @@ const Footer = () => {
         <div className="text-sm px-3 lg:px-16 py-3 text-gray-600 flex flex-col gap-2 sm:flex-row justify-between items-center">
           <div className="order-2 sm:order-1">
             Copyright <sup>&copy;</sup> {new Date().getFullYear()}{" "}
-            <a href="https://mkhotamirais.github.io/" className="text-blue-600 hover:underline">
+            <a
+              href="https://mkhotamirais.github.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan-600 hover:underline"
+            >
               mkhotami
             </a>
           </div>
