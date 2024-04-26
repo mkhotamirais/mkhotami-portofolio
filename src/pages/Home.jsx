@@ -19,6 +19,7 @@ import {
   ViteIcon,
 } from "../components/Icons";
 import { CgFileDocument } from "react-icons/cg";
+import Projects from "./Projects";
 
 const contactMenus = [
   { text: "087766606133", href: "https://api.whatsapp.com/send/?phone=6287766606133", icon: <WhatsAppIcons8 size="48" /> },
@@ -63,7 +64,7 @@ const Home = () => {
       </Section>
       <Section id="about">
         <H1>About Me</H1>
-        <ul className="list-disc list-inside p-5 rounded-xl mt-3 leading-loose">
+        <ul className="list-disc list-inside p-5 rounded-xl mt-3 leading-loose border mx-auto md:w-full xl:w-2/3 ">
           <li>I focused on the realm of web programming to be a MERN Stack Developer.</li>
           <li>Graduated from UIN Jakarta in 2022, majoring in Arabic Language and Literature.</li>
           <li>Iterested in website programming then learned Javascript and ReactJS to accelerate front-end projects.</li>
@@ -93,14 +94,7 @@ const Home = () => {
       </Section>
       <Section id="projects">
         <H1>Projects</H1>
-        <ul>
-          <li>sisko</li>
-          <li>jsonplaceholder</li>
-          <li>omdbapi</li>
-          <li>react todo</li>
-          <li>redux product list</li>
-          <li>kamus istilah</li>
-        </ul>
+        <Projects />
       </Section>
       <Section id="contact">
         <H1>Contact Me</H1>

@@ -1,6 +1,6 @@
 export const Section = ({ className, id, children }) => {
   return (
-    <section id={id} className={`${className} py-8 px-3 lg:px-16 min-h-[50vh] scroll-mt-60 sm:scroll-mt-16`}>
+    <section id={id} className={`${className} py-8 px-3 lg:px-16 min-h-[50vh] scroll-mt-16 sm:scroll-mt-16`}>
       {children}
     </section>
   );

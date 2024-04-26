@@ -59,9 +59,9 @@ export const NavCollapse = ({ className }) => {
 
   return (
     <div
-      className={`${className} z-50 backdrop-blur sticky top-16 flex flex-col rounded-b-lg px-3 ${
-        openNav ? "h-48 pt-2 pb-4 border-b" : "h-0 pt-0 pb-0 border-none"
-      } block sm:hidden overflow-hidden transition-all duration-150`}
+      className={`${className} z-50 bg-white fixed w-full top-16 flex flex-col rounded-b-lg px-3 ${
+        openNav ? "scale-100" : "scale-y-0"
+      } origin-top pt-2 pb-4 border-b block sm:hidden overflow-hidden transition-all duration-150`}
     >
       <NavContent onClick={handleNavMenu} className={"py-2 border-b"} />
     </div>
