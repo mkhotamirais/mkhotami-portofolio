@@ -20,7 +20,7 @@ const App = () => {
   }, [dispatch, openNav]);
 
   return (
-    <div className={`${dark ? "bg-slate-800 text-white" : "bg-white"} text-gray-800`}>
+    <div className={`${dark ? "bg-slate-800 text-white" : "bg-white"} text-gray-700`}>
       <Header />
       <main onClick={handleApp} className="min-h-screen">
         <Outlet />

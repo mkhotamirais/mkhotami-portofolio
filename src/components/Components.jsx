@@ -19,7 +19,7 @@ export const MyFoto = ({ className }) => {
       <img
         src="https://github.com/mkhotamirais/mkhotamirais.github.io/blob/main/images/me2-removebg.png?raw=true"
         alt="me"
-        className="border-t-4 shadow-lg h-52 md:h-72 rounded-full bg-gradient-to-tr from-red-200 via-green-200 to-blue-200"
+        className="border-t-4 shadow-lg h-48 md:h-64 rounded-full bg-gradient-to-tr from-red-200 via-green-200 to-blue-200"
       />
     </figure>
   );

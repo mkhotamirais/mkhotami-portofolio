@@ -1,6 +1,5 @@
-import { FaArrowDown } from "react-icons/fa6";
 import { Button, H1, Section } from "../components/Tags";
-import { ContactLink, MyFoto, SkillLink } from "../components/Components";
+import { ContactLink, SkillLink } from "../components/Components";
 import { GmailIcons8, LinkedinIcons8, WhatsAppIcons8 } from "../components/IconsSvg";
 import { useSelector } from "react-redux";
 import {
@@ -20,6 +19,7 @@ import {
 } from "../components/Icons";
 import { CgFileDocument } from "react-icons/cg";
 import Projects from "./Projects";
+import Top from "./Top";
 
 const contactMenus = [
   { text: "087766606133", href: "https://api.whatsapp.com/send/?phone=6287766606133", icon: <WhatsAppIcons8 size="48" /> },
@@ -47,24 +47,10 @@ const Home = () => {
   const { dark } = useSelector((state) => state.basic);
   return (
     <>
-      <Section className={`rounded-b-xl py-16 border-b`}>
-        <div className="flex flex-col md:flex-row items-center justify-around gap-6 pb-16 pt-8">
-          <MyFoto />
-          <div className="p-2 text-center md:text-left bg-clip-text bg-gradient-to-tr from-red-600 via-green-600 to-blue-600 text-transparent">
-            <div className="text-xl md:text-2xl">I am</div>
-            <h1 className={"text-3xl md:text-6xl mb-3 md:mb-5 font-medium"}>M Khotami Rais</h1>
-            <h2 className={"text-xl md:text-3xl font-semibold"}>MERN Web Developer</h2>
-            <a href="#about" className="mt-6 inline-block">
-              <button className="p-3 md:p-4 px-6 md:px-8 bg-blue-500 text-white rounded-xl leading-none flex items-center gap-2 hover:opacity-50 transition-all duration-100">
-                About Me <FaArrowDown className="inline-block" />
-              </button>
-            </a>
-          </div>
-        </div>
-      </Section>
+      <Top />
       <Section id="about">
         <H1>About Me</H1>
-        <ul className="list-disc list-inside p-5 rounded-xl mt-3 leading-loose border mx-auto md:w-full xl:w-2/3 ">
+        <ul className="list-disc list-inside p-5 rounded-xl mt-3 leading-loose border mx-auto md:w-full xl:w-2/3 shadow-lg">
           <li>I focused on the realm of web programming to be a MERN Stack Developer.</li>
           <li>Graduated from UIN Jakarta in 2022, majoring in Arabic Language and Literature.</li>
           <li>Iterested in website programming then learned Javascript and ReactJS to accelerate front-end projects.</li>
