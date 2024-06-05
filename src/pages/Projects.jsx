@@ -31,7 +31,7 @@ const projectsList = [
   {
     name: "public api",
     description:
-      "This project showcases data retrieved from public APIs, including Jsonplaceholder, OmdbAPI, FakestoreAPI, SistemToko, and NewsAPI. The data is presented in a grid system card format, ensuring compatibility across various viewport sizes. Features include dark mode, breadcrumbs, data filtering, and search functionality to enhance user experience and accessibility. The development of this project is approximately 70% complete, as additional another public APIs will be integrated.",
+      "This project showcases data retrieved from public APIs, including Jsonplaceholder, OmdbAPI, FakestoreAPI, SistemToko, and NewsAPI. The data is presented in a grid system card format, ensuring compatibility across various viewport sizes. Features include dark mode, breadcrumbs, data filtering, and search functionality to enhance user experience and accessibility. The development of this project is approximately 70% complete, as additional public APIs will be integrated.",
     tools:
       "Front-end: React, Redux, Axios, Reacticons, Tailwindcss; Back-end: Public APIs (Jsonplaceholder, OmdbAPI, FakestoreAPI, SistemToko, and NewsAPI)",
     githubLink: "https://github.com/mkhotamirais/mkhotami/tree/main/src/pages/client-app",
