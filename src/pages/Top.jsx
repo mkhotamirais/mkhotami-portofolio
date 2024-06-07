@@ -21,7 +21,7 @@ const Top = () => {
               //   loopCount={5}
               loop
             >
-              <input type="text" className="outline-none text-center md:text-left w-80" />
+              <input type="text" className="outline-none text-center md:text-left w-80 bg-inherit" />
             </ReactTyped>
           </h2>
           <a href="#about" className="mt-8 inline-block">
