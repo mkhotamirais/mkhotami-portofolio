@@ -28,7 +28,7 @@ MyFoto.propTypes;
 
 export const ContactLink = ({ className, href, icon, text }) => {
   return (
-    <a href={href} className={`${className} flex flex-col items-center gap-2`}>
+    <a href={href} className={`${className} flex flex-col items-center gap-2`} target="_blank" rel="noopener noreferrer">
       {icon}
       {/* <FaWhatsappSquare className="text-[#1b8755] text-4xl inline-block" /> */}
       <span>{text}</span>
@@ -40,7 +40,7 @@ ContactLink.propTypes;
 export const Socials = ({ className }) => {
   const socialsList = [
     { title: "github", icon: <GithubIcons8 size="28" />, href: "https://github.com/mkhotamirais" },
-    { title: "linkedin", icon: <LinkedinIcons8 size="28" />, href: "https://www.linkedin.com/in/mkhotami-tami/" },
+    { title: "linkedin", icon: <LinkedinIcons8 size="28" />, href: "https://www.linkedin.com/in/mkhotami-rais/" },
   ];
 
   return (

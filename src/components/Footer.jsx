@@ -5,24 +5,22 @@ const Footer = () => {
   const { dark } = useSelector((state) => state.basic);
 
   const MernProjectsList = [
+    { title: "mkhotami warung", href: "https://mkhotami-warung.vercel.app/" },
     { title: "eduwork pos", href: "https://github.com/mkhotamirais/mkhotami-mern-eduwork" },
-    { title: "mkhotami ecommerce ", href: "https://github.com/mkhotamirais/mkhotami-mern" },
+    { title: "mkhotami app", href: "https://mkhotami-app.vercel.app/mern-app" },
   ];
 
   const PublicApisProjectList = [
-    { title: "jsonplaceholder", href: "https://panduan-public-apis.vercel.app/jsonplaceholder" },
-    { title: "omdbapi", href: "https://panduan-public-apis.vercel.app/omdbapi" },
-    { title: "newsapi", href: "https://panduan-public-apis.vercel.app/newsapi" },
-    { title: "sistem toko", href: "https://panduan-public-apis.vercel.app/sisko" },
-    { title: "fakestoreapi", href: "https://panduan-public-apis.vercel.app/fakestoreapi" },
+    { title: "jsonplaceholder", href: "https://mkhotami.vercel.app/client-app/jsonplaceholder" },
+    { title: "omdbapi", href: "https://mkhotami.vercel.app/client-app/omdbapi" },
+    { title: "newsapi", href: "https://mkhotami.vercel.app/client-app/newsapi" },
+    { title: "sistem toko", href: "https://mkhotami.vercel.app/client-app/sisko" },
+    { title: "fakestoreapi", href: "https://mkhotami.vercel.app/client-app/fakestoreapi" },
   ];
 
   const BasicProjectsList = [
-    { title: "eduwork projects", href: "https://mkhotami-eduwork.vercel.app/" },
-    { title: "react todo", href: "https://panduan-reactjs.vercel.app/mini-projects/react-crud" },
-    { title: "redux product list", href: "https://panduan-reactjs.vercel.app/mini-projects/redux-crud" },
-    { title: "react todo2", href: "https://panduan-reactjs.vercel.app/mini-projects/todo-list" },
-    { title: "ringkasan", href: "https://mkhotami-ringkasan.vercel.app/" },
+    { title: "todo", href: "https://mkhotami-app.vercel.app/client-app/todo" },
+    { title: "tasks", href: "https://mkhotami-app.vercel.app/basic/course" },
   ];
 
   const HostingProjectsList = [{ title: "hadinalmusri", href: "https://hadinalmusri.com/" }];
