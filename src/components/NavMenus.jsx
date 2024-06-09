@@ -51,7 +51,7 @@ export const NavBtn = () => {
 };
 
 export const NavCollapse = ({ className }) => {
-  const { openNav } = useSelector((state) => state.basic);
+  const { openNav, dark } = useSelector((state) => state.basic);
   const dispatch = useDispatch();
   const handleNavMenu = () => {
     dispatch(removeOpenNav());
@@ -59,7 +59,9 @@ export const NavCollapse = ({ className }) => {
 
   return (
     <div
-      className={`${className} z-50 bg-white fixed w-full top-16 flex flex-col rounded-b-lg px-3 ${
+      className={`${className} ${
+        dark ? "bg-slate-800" : "bg-white"
+      } z-50 fixed w-full top-16 flex flex-col rounded-b-lg px-3 ${
         openNav ? "scale-100" : "scale-y-0"
       } origin-top pt-2 pb-4 border-b block sm:hidden overflow-hidden transition-all duration-150`}
     >

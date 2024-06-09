@@ -59,7 +59,7 @@ const Projects = () => {
       {projectsList.map((item, i) => (
         <div key={i} className={`${item.name === active ? "block" : "hidden"} gap-3 flex flex-col lg:flex-row`}>
           <div className="border flex-1 rounded-lg p-1 overflow-hidden shadow">
-            <iframe src={item.demoLink} className="w-full h-full bg-white" />
+            <iframe src={item.demoLink} className="w-full h-96 lg:h-full bg-white" />
           </div>
           <div className={`border flex-1 rounded-lg p-3 leading-relaxed flex flex-col gap-2 shadow`}>
             <div className="capitalize">
